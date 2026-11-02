@@ -1,0 +1,61 @@
+.videoFooter {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    width: 70%;
+    margin-left: 13px;
+}
+
+.videoFooter_username {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+}
+
+.videoFooter_username>p {
+    font-weight: bolder;
+    width: 100%;
+}
+
+.videoFooter_username>img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.videoFooter_description {
+    margin-bottom: 12px;
+}
+
+.videoFooter_song {
+    display: flex;
+    align-items: center;
+}
+
+.videoFooter_ticker {
+    width: 80%;
+    position: relative;
+    margin-left: 10px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.videoFooter_ticker>p {
+    animation: ticker 8s infinite ease-in;
+    height: fit-content;
+
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%)
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+}

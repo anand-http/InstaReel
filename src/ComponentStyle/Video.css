@@ -1,0 +1,31 @@
+.video {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    scroll-snap-align: start;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.video>video {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.sound{
+    position: absolute;
+    top: 3%;
+    right: 15px;
+    z-index: 2;
+}
+
+.volume_on{
+    color: white;
+}
+.volume_off{
+    color: white;
+}
